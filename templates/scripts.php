@@ -1,0 +1,1 @@
+<?php if ( ! defined( 'ABSPATH' ) ) exit; ?><?php if ( ! empty( $scripts ) ) : ?><script type='<?= empty( $type ) ? 'text/javascript' : $type; ?>'><?= "\n" . $scripts . "\n"; ?></script><?php endif; ?>
